@@ -1,0 +1,43 @@
+body {
+    font-family: monospace;
+    font-size: 16px;
+}
+body h1, h2, h3 {
+    text-align: center;
+}
+.sidebar {
+	margin-left: 1250px; 
+	position: absolute; 
+	top: 0; 
+	right: 100;
+	}
+header {
+    background-image: url("back2.jpg");
+    max-width: 960px;
+    color: white;
+}
+a {
+    color: grey;
+}
+a:hover {
+    color: red;
+    background-color: grey;
+}
+footer {
+    position: relative;
+    text-align: center;
+    border: 5px solid;
+    word-spacing: 250px;
+}
+.participation {
+    background-image: url("back2.jpg");
+}
+.benefits {
+    background-image: url("back2.jpg");
+}
+[role=article] {
+    max-width: 960px;
+}
+[role=main] h3 {
+    text-align: center;
+}
